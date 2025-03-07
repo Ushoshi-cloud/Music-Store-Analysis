@@ -151,3 +151,9 @@ WITH CUSTOMER_COUNTRY AS (
     ORDER BY invoice.billing_country ASC, Total_spending DESC
 )
 SELECT * FROM CUSTOMER_COUNTRY WHERE Rowno <= 1;
+
+
+Note - pgAdmin does not have a built-in formatter. Try these alternatives:
+
+1️⃣ Online Formatter: pgFormatter
+2️⃣ VS Code: Install "SQL Formatter", press Shift + Alt + F
